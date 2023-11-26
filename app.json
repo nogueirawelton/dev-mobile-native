@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "dev-mobile-native",
-    "slug": "dev-mobile-native",
+    "name": "Kpz Finances",
+    "slug": "kpz-finances",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kpz201.kpzfinances"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3eac4eff-f628-49ac-971e-e8ce420d5076"
+      }
     }
   }
 }
